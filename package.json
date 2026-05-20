@@ -1,0 +1,9 @@
+{
+  "name": "ojas",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "deploy": "cd frontend && npm run deploy"
+  }
+}
