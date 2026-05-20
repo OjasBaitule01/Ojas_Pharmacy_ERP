@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "1jfvatqqwzwjl3f7mx9dbe",
+    "username": "admin",
+    "email": "admin@ojas.com",
+    "password": "$2a$10$6A85xZKC6.MZ5jJvZnFY8etV6O11Hfn4xg4tXsLQzrGjXV0MH1//i",
+    "role": "Admin",
+    "createdAt": "2026-05-20T14:33:25.406Z"
+  },
+  {
+    "_id": "3lcel2wqji9hpj2oka03y6",
+    "username": "pharmacist",
+    "email": "pharma@ojas.com",
+    "password": "$2a$10$7gaBwux5IASNTtfPKsIzIeRCpy46qx/.ue9G52hFkQIixbWQK3Fpy",
+    "role": "Pharmacist",
+    "createdAt": "2026-05-20T14:33:25.406Z"
+  }
+]
