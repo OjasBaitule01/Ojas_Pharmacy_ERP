@@ -63,14 +63,4 @@ npm run dev
 
 ---
 
-## Demo Login Credentials
 
-The database seeder pre-populates these credentials (password for all is `password123`):
-
-| Username | Role | Description |
-| :--- | :--- | :--- |
-| **admin** | **Admin** | Full system permissions (Inventory CRUD, Reports, POS, Users) |
-| **pharmacist** | **Pharmacist** | Access to Sales, Inventory adding/editing, and prescription approvals |
-| **staff** | **Staff** | Regular operations desk (POS checkouts and prescription uploads) |
-
-*You can also click the quick credentials chips on the Login page to automatically autofill these accounts!*
