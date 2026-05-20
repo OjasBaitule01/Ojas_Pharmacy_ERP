@@ -93,6 +93,30 @@ const seedData = async () => {
         status: 'Dispensed',
         notes: 'Regular check-up. Diabetic history.',
         uploadedBy: pharmacist._id
+      },
+      {
+        patientName: 'Nisha Patel',
+        patientEmail: 'nisha@gmail.com',
+        patientPhone: '9123456780',
+        doctorName: 'Dr. Ravi Menon',
+        medicines: [
+          { name: 'Ibuprofen 400mg', dosage: '400mg', frequency: 'Twice a day', duration: '7 Days' }
+        ],
+        status: 'Pending',
+        notes: 'New patient with mild joint pain.',
+        uploadedBy: admin._id
+      },
+      {
+        patientName: 'Amit Sharma',
+        patientEmail: 'amit.sharma@gmail.com',
+        patientPhone: '9811223344',
+        doctorName: 'Dr. Priya Roy',
+        medicines: [
+          { name: 'Cetirizine 10mg', dosage: '10mg', frequency: 'Once a day', duration: '10 Days' }
+        ],
+        status: 'Dispensed',
+        notes: 'Seasonal allergy treatment.',
+        uploadedBy: staff._id
       }
     ];
 
@@ -134,7 +158,7 @@ const seedData = async () => {
       discount: 0.0,
       totalAmount: 117.6,
       paymentMethod: 'Cash',
-      servedBy: staff._id,
+      servedBy: pharmacist._id,
       createdAt: getPastDate(3)
     });
 
@@ -152,7 +176,7 @@ const seedData = async () => {
       discount: 10.0,
       totalAmount: 100.88,
       paymentMethod: 'Card',
-      servedBy: staff._id,
+      servedBy: admin._id,
       createdAt: getPastDate(2)
     });
 
@@ -187,7 +211,7 @@ const seedData = async () => {
       discount: 15.0,
       totalAmount: 253.8,
       paymentMethod: 'Card',
-      servedBy: staff._id,
+      servedBy: pharmacist._id,
       createdAt: today
     });
 
